@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: rgb(56, 56, 56);
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    padding: 2% 0px;
+    background-color: black;
+}
+
+
+h1{
+    color: rgb(42, 109, 202);
+}
+
+.footer{
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: black;
+    padding: 2% 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 15pt;
+}
+
+#select{
+    font-weight: bold;
+}
+
+.hist{
+    color: rgb(42, 109, 202);
+    background-color: rgb(33, 33, 33);
+    margin: 20px 3px;
+    padding: 1.5%;
+    border-radius: 10px;
+}
+
+.hist:hover{
+    cursor: pointer;
+}
+
+.section{
+    width: 100%;
+    text-align: center;
+}
+
+.section input{
+    width: 90%;
+    padding: 7px 5px;
+    margin: 2%;
+    outline: none;
+    background-color: rgb(33, 33, 33);
+    border: 0px solid;
+    color: rgb(79, 142, 231);
+    font-size: 14pt;
+    border-radius: 5px;
+}
+
+.section input::placeholder{
+    color: rgb(33, 85, 158);
+}
+
+.section textarea{
+    width: 90%;
+    padding: 7px 5px;
+    margin: 2%;
+    outline: none;
+    background-color: rgb(33, 33, 33);
+    border: 0px solid;
+    color: rgb(79, 142, 231);
+    font-size: 14pt;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.section textarea::placeholder{
+    color: rgb(33, 85, 158);
+}
+
+.section button{
+    width: 60%;
+    padding: 1.5%;
+    margin-top: 2%;
+    background-color: rgb(42, 109, 202);
+    font-size: 13pt;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: medium;
+}
+
+.section button:hover{
+    cursor: pointer;
+}
+
+#h1{
+    margin-top: 1%;
+}
